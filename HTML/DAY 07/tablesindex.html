@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Table</title>
+    <style>
+       body{
+            background: rgb(9, 132, 173);
+            color:rgb(18, 17, 17);
+            font-family: sans-serif;
+            text-align: center;
+
+        }
+        td,th{
+            border:2px solid rgb(192, 210, 74);
+            padding: 10px;
+            text-align: center;
+            background:linear-gradient(to right,rgb(73, 145, 186),rgb(7, 188, 43),rgb(192,9,192));
+            border-radius: 8px;
+        }
+        table{
+            width: 50%;
+            height: 300px;
+            font-size:larger;
+            margin:30px;
+        }
+        tbody{
+            background-color: yellow;
+
+        }
+    </style>
+    
+</head>
+<body>
+    <h1>MY CLASS TIME-TABLE</h1>
+
+    <table border="2PX" Cellpadding="5px"
+        <thead>
+           <caption>JAVA FULLSTACK DEVELOPMENT -TAP ACADEMY</caption>
+           <tr>
+           <th>Day</th>
+           <th>9-10 AM</th>
+           <th>10-11 AM</th>
+           <th>11-12 AM</th>
+           <th>1-2 PM</th>
+           <th>2-4 PM</th>
+        </tr></thead>
+
+        <tbody>
+           <tr>
+           <th>Monday</th>
+           <td>MYSQL</td>
+           <td>Java</td>
+           <td>SoftSkills</td>
+           <td rowspan="5">Lunch Break</td>
+           <td>Mock</td> 
+        </tr>
+
+
+        <tr>
+            <th>Tuesday</th>
+            <td colspan="2">Project Class</td>
+            <td>Programming</td>
+            <td>CSS</td>
+        </tr>
+
+
+        <tr>
+            <th>Wednesday</th>
+            <td>HTML</td>
+            <td>Python</td>
+            <td>DSA</td>
+            <td rowspan="2">Front End Project</td>
+        </tr>
+
+
+        <tr>
+            <th>Thursday</th>
+            <td>Java</td>
+            <td colspan="2">React JS</td> 
+        </tr>
+
+
+        <tr>
+            <th>Friday</th>
+            <td>Programming</td>
+            <td>Java</td>
+            <td>DSA</td>
+            <td>Javascript</td>
+        </tr>
+        </tbody>
+        <tfoot><tr>
+            <td colspan="6">Note:Friday 2-4PM is optional activity slot</td></tr>
+        </tfoot>
+    </table>
+   
+</body>
+</html>
+         

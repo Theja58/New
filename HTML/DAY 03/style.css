@@ -1,0 +1,43 @@
+/* Reset default spacing */
+* {
+  margin: 0;
+  padding: o;
+  box-sizing: border-box;
+}
+
+/*page background */
+body {
+  background:linear-gradient(135deg, #5d3b8a,#000080,#2d142d);
+  color:
+}
+
+
+
+
+
+body {
+  background-color: black;
+  color: white;
+  font-family: "Google Sans", sans-serif;
+  font-weight: 900;
+}
+
+h1 {
+  text-align: center;
+  background-color: #000080;
+  border-radius: 10px;
+  -webkit-text-stroke-color: 1px rgb(214, 72, 158);
+}
+
+h3 {
+  background-color: #85409d;
+  text-align: center;
+  width: 40%;
+  margin: 0px auto;
+  padding: 25px;
+  border-radius: 15px;
+  border-left: 5px solid yellow;
+  box-shadow: ;
+}
+d
+  
